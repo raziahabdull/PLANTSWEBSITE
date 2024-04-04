@@ -1,0 +1,190 @@
+.navbar1{
+    display: flex;
+    flex-direction: row;
+    gap:70%;
+    background-color: rgb(101,161,91);
+    -webkit-text-fill-color: antiquewhite;
+    font-size:x-large;
+}
+
+    
+.navbar2{
+    display: flex;
+    gap: 5%;
+    margin-top: 2%;
+    
+}
+a{
+    color:black;
+}
+
+
+.maindiv1{
+    display:flex;
+    gap:0%;
+}
+.inspiration{
+    display:flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+.grow{
+    display:flex;
+    flex-direction: row;
+}
+.topright{
+    margin-left: 15%;
+}
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:large;
+    
+}
+.HOUSE{
+    position:absolute;
+    left:16px;
+}
+.section1{
+    display:flex;
+    flex-direction: row;
+    gap: 10%;
+}
+.discount{
+    position:absolute;
+}
+.plants1{
+    display:grid;
+    grid-template-columns: auto auto auto;
+
+}
+.plantsale{
+    display:flex;
+}
+
+
+.featureproduct{
+    display: flex;
+}
+.livingthing{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.spring{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.cactustree{
+    display: flex;
+}
+.blogs{
+    display:flex;
+    gap:10%;
+}
+.footerwords{
+    
+    display: flex;
+    flex-direction: row;
+    gap:10%;
+
+}
+
+.paragraph{
+    margin-left: 20%;
+    font-size: larger;
+}
+.paragraph2{
+    margin-left: 5%;
+    margin-bottom: 0%;
+}
+.Arrivals{
+    font-size: xx-large;
+}
+.cactustree{
+    gap: 30%;
+}
+.vines{
+    display:flex;
+}
+    
+
+.footerimages{
+    display:flex;
+    margin-left: 25%;
+    gap:10%;
+}
+.footer{
+    margin-left: 35%;
+}
+.footerp{
+    margin-left: 20%;
+    margin-bottom: 3%;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px){
+    .navbar1{
+        
+         background-color: rgb(101,161,91);
+        -webkit-text-fill-color: antiquewhite;
+        font-size:x-large;
+    }
+    
+        
+    .navbar2{
+
+        margin-top: 2%;
+        
+    }
+    a{
+        color:black;
+    }
+    
+
+    
+    body{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size:medium;
+        
+    }
+    
+        .discount{
+        position:absolute;
+    }
+    .plants1{
+        display:grid;
+        grid-template-columns: auto ;
+    
+    }
+    
+    
+    
+    .livingthing{
+        margin-top: 10%;
+    }
+    .spring{
+        display: grid;
+        grid-template-columns: auto  ;
+    }
+    
+    
+    .paragraph{
+        margin-left: 0%;
+        font-size: small;
+    }
+    .paragraph2{
+        margin-bottom: 0%;
+    }
+    .Arrivals{
+        font-size: medium;
+    }
+    .cactustree{
+        gap: 30%;
+    }
+    
+    
+    
+        
+    
+    
+    
+    
+}
